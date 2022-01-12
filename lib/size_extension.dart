@@ -25,4 +25,5 @@ extension SizeExtension on num {
   ///屏幕高度的倍数
   ///Multiple of screen height
   double get sh => ScreenUtil().screenHeight * this;
+  double get t => 999;
 }
